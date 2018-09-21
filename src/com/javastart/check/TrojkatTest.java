@@ -18,8 +18,12 @@ public class TrojkatTest {
 
         Triangle triangle= new Triangle(A,B,C);
         Test test= new Test();
-        if (test.isRightTriangle(triangle)==true){ System.out.println("Trojkat jest prostokatny");
-        }else{ System.out.println("Trojkat nie jest prostokatny"); }
+        if (test.isRightTriangle(triangle)){
+            System.out.println("Trojkat jest prostokatny");
+        }
+        else{
+            System.out.println("Trojkat nie jest prostokatny");
+        }
 
 
 
